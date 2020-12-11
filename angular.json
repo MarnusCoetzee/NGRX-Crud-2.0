@@ -121,8 +121,16 @@
               "devServerTarget": "office2:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {}
         }
       }
-    }},
-  "defaultProject": "office2"
+    }
+  },
+  "defaultProject": "office2",
+  "cli": {
+    "analytics": "5aeee989-d24f-412e-a53c-aad086deab8a"
+  }
 }
